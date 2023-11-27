@@ -1,0 +1,19 @@
+{
+    "name": "Postgres Reset Sequence",
+    "identifier": "com.tintnaingwin.TablePlus.PostgresResetSequence",
+    "version": "1.0",
+    "detail": "This plugin helps reset sequence in Postgres",
+    "author": "Tint Naing Win",
+    "site": "https://github.com/tintnaingwinn/tableplus-reset-sequence",
+    "email": "amigo.k8@gmail.com",
+    "scripts": [
+        {
+            "name": "Reset Sequence",
+            "location": "item",
+            "type": "action",
+            "script": "plugin.js",
+            "handler": "reset",
+            "name": "Reset Sequence"
+        }
+    ]
+}
